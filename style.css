@@ -77,3 +77,7 @@
 .navbar-i {
     display: block;
 }
+
+#toggle-menu:checked ~ .navbar-list {
+    display: flex;
+}
